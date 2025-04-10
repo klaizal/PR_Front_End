@@ -9,6 +9,14 @@ o servicio específico. La plataforma contará con un diseño que incluirá un h
 header y footer, una página de contacto y funcionalidades para que los usuarios interactúen con la
 información.
 
+### Galaxy HardByte 
+
+Nuestra página web es una tienda virtual que vende artículos tecnológicos. 
+Cuenta con una página principal, inicio de sesión, registro, vista de administrador y páginas de producto.
+
+Link: [Galaxy HardByte](https://klaizal.github.io/PR_Front_End/)
+
+
 ## Integrantes Subgrupo 14
 
 - Miguel Angel González Ramírez

@@ -45,7 +45,7 @@ body {
   }
   
   .hero {
-    background: url('images/teclado.jpg') no-repeat center center/cover;
+    background: url('home/images/teclado.jpg') no-repeat center center/cover;
     height: 80vh;
     display: flex;
     align-items: center;
