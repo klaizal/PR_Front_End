@@ -1,0 +1,263 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #111;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #5da9e9;
+    font-weight: 600;
+}
+
+.logo strong {
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5da9e9;
+    font-weight: 500;
+}
+
+.btn-admin {
+    padding: 6px 16px;
+    border: 2px solid #5da9e9;
+    background: white;
+    color: #5da9e9;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.btn-admin:hover {
+    background-color: #5da9e9;
+    color: white;
+}
+
+/* MAIN PRODUCT */
+.main-product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    max-width: 1000px;
+    margin-bottom: 60px;
+    text-align: left;
+}
+
+.main-product img {
+    width: 250px;
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.product-info h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.product-info p {
+    font-size: 13px;
+    color: #555;
+}
+
+.product-info .price {
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+}
+
+.edit-btn {
+    margin-top: 10px;
+    padding: 10px 30px;
+    background: #000;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+    width: fit-content;
+}
+
+.edit-btn:hover {
+    background: #222;
+}
+
+/* PRODUCT LIST */
+.product-list {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.product-list h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.product-items {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item img {
+    width: 100px;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
+.item p {
+    font-size: 14px;
+    color: #333;
+    margin: 2px 0;
+}
+
+.item .price {
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-top: 1px solid #ccc;
+    margin-top: 60px;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #444;
+    text-align: center;
+}
+
+footer div {
+    margin: 10px 0;
+}
+
+footer strong {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+    header,
+    footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .main-product {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .edit-btn {
+        align-self: center;
+    }
+
+    .product-items {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+/* Interacciones y animaciones */
+
+/* Cursor para botones y links */
+button,
+a {
+    cursor: pointer;
+}
+
+/* Animación hover para botones */
+.edit-btn,
+.btn-admin {
+    transition: all 0.3s ease;
+}
+
+.edit-btn:hover {
+    background-color: #333;
+}
+
+.btn-admin:hover {
+    background-color: #5da9e9;
+    color: #fff;
+    border-color: #5da9e9;
+}
+
+/* Animación para ítems de producto */
+.item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+/* Imagenes con animación al hacer hover */
+.item img,
+.main-product img {
+    transition: transform 0.3s ease;
+}
+
+.item:hover img,
+.main-product img:hover {
+    transform: scale(1.05);
+}
