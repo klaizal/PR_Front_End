@@ -33,6 +33,7 @@ header {
     font-size: 2em;
     color: #fff;
     user-select: none;
+    cursor: pointer;
 }
 
 .navigation a {
