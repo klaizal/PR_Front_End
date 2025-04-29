@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400..900;1,400..900&display=swap");
 
 * {
     margin: 0;
@@ -30,10 +31,12 @@ header {
 }
 
 .logo {
-    font-size: 2em;
+    font-size: 35pt;
     color: #fff;
     user-select: none;
     cursor: pointer;
+    font-family: 'kufam';
+    font-style: italic;
 }
 
 .navigation a {
@@ -66,7 +69,7 @@ header {
 }
 
 .navigation .btnLogin-popup {
-    width: 130px;
+    width: 160px;
     height: 50px;
     background: transparent;
     border: 2px solid #fff;
@@ -82,7 +85,7 @@ header {
 
     .navigation .btnLogin-popup:hover {
         background: #fff;
-        color: #162938;
+        color: rgb(119, 119, 181);
     }
 
 .wrapper {

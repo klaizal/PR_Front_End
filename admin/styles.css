@@ -1,4 +1,5 @@
 /* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +7,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'trebuchet ms';
     background-color: #fff;
     color: #111;
     padding: 40px 20px;
@@ -26,11 +27,13 @@ header {
 }
 
 .logo {
-    font-size: 30px;
+    font-size: 40px;
     color: #5da9e9;
-    font-weight: 600;
+    font-weight: 700;
     cursor: pointer;
     text-decoration: none;
+    font-family: 'kufam';
+    font-style: italic;
 }
 
 .logo strong {
@@ -46,12 +49,17 @@ nav {
 nav a {
     text-decoration: none;
     color: #5da9e9;
-    font-weight: 500;
+    font-weight: normal;
+    font-size: 14pt;
+    padding-right: 30px;
 }
 
 .btn-admin {
     padding: 6px 16px;
-    border: 2px solid #5da9e9;
+    border: 3px solid #5da9e9;
+    width: 170px;
+    height: 40px;
+    font-size: 12pt;
     background: white;
     color: #5da9e9;
     font-weight: bold;
@@ -90,25 +98,30 @@ nav a {
 }
 
 .product-info h2 {
-    font-size: 18px;
+    font-size: 35pt;
     font-weight: bold;
 }
 
 .product-info p {
     font-size: 13px;
-    color: #555;
+    color: #878787;
+    font-style: italic;
+    align-items: center;
 }
 
 .product-info .price {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 35pt;
     color: #000;
+    font-style: normal;
 }
 
 .edit-btn {
+    font-size: 15pt;
+    font-family: 'kufam';
     margin-top: 10px;
     padding: 10px 30px;
-    background: #000;
+    background: #5da9e9;
     color: white;
     border: none;
     border-radius: 6px;
@@ -119,7 +132,7 @@ nav a {
 }
 
 .edit-btn:hover {
-    background: #222;
+    background: #518bbb;
 }
 
 /* PRODUCT LIST */
@@ -130,9 +143,10 @@ nav a {
 }
 
 .product-list h3 {
-    font-size: 20px;
+    font-size: 20pt;
     margin-bottom: 30px;
     font-weight: bold;
+    font-family: 'khula';
 }
 
 .product-items {
@@ -156,7 +170,7 @@ nav a {
 }
 
 .item p {
-    font-size: 14px;
+    font-size: 13pt;
     color: #333;
     margin: 2px 0;
 }
@@ -175,8 +189,8 @@ footer {
     border-top: 1px solid #ccc;
     margin-top: 60px;
     padding-top: 20px;
-    font-size: 14px;
-    color: #444;
+    font-size: 14ptx;
+    color: #676666;
     text-align: center;
 }
 

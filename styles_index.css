@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'trebuchet ms';
     background-color: #f4f7fb;
     color: #333;
   }
@@ -15,15 +15,18 @@ body {
   }
   
   .logo {
-    font-size: 1.8rem;
-    font-weight: bold;
+    font-size: 40px;
+    font-weight: 700;
     color: #2a6fc1;
+    font-family: 'kufam';
+    font-style: italic;
   }
   
   .nav-links {
     list-style: none;
     display: flex;
     gap: 1.5rem;
+    font-family: 'kufam';
   }
   
   .nav-links a {
@@ -39,11 +42,15 @@ body {
   
   .btn-login {
     padding: 0.4rem 0.8rem;
-    background-color: #222b357c;
-    color: white;
-    border-radius: 4px;
+    background-color:  #e9eff7;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
   }
-  
+  .btn-login:hover {
+    background-color:  #2a6ec16f;
+    color:white;
+  }
   .hero {
     background: url('home/images/teclado.jpg') no-repeat center center/cover;
     height: 80vh;
@@ -69,22 +76,26 @@ body {
   }
   
   .hero h1 {
-    font-size: 3rem;
+    font-size: 50pt;
     margin-bottom: 0.5rem;
+    font-family: 'kufam';
   }
   
   .hero p {
     font-size: 1.3rem;
     margin-bottom: 1.5rem;
+    font-family: 'khula';
   }
   
   .btn-cta {
-    background-color: #0c213b;
+    background-color: #2a6fc1;
     color: white;
     padding: 0.8rem 1.5rem;
     border: none;
     border-radius: 6px;
     text-decoration: none;
+    font-family: 'kufam';
+    font-weight: bold;
     font-size: 1rem;
     transition: background-color 0.3s;
   }
@@ -103,6 +114,8 @@ body {
     font-size: 2.2rem;
     color: #2a6fc1;
     margin-bottom: 2rem;
+    font-family: 'kufam';
+    padding-bottom: 50px;
   }
   
   .productos-grid {
@@ -130,18 +143,28 @@ body {
   
   .slogan {
     background-color: #dfeaf5;
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
     font-style: italic;
     color: #2a6fc1;
     font-size: 1.2rem;
+    font-family: 'kufam';
+    font-weight: bold;
   }
-  
+
+  .email,
+  .servicio,
+  .vende {
+      display: inline-block;
+      text-align: center;
+      background-color: transparent;
+      color:  #405a7b;
+  }
+
   .footer {
     background-color: #e9eff7;
     padding: 1rem;
     text-align: center;
     font-size: 0.9rem;
-    color: #555;
+    color: #9eafc6;
   }
-  
