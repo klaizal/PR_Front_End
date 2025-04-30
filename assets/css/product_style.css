@@ -24,17 +24,15 @@
     color: #006ab6b6;
     border: solid;
     border-width: 3px;
-    height: 60px;
-    width: 200px;
     border-radius: 5px;
     cursor: pointer;
-    margin-right: 10px;
-    margin-left: 10px;
+    vertical-align: middle;
     font-weight: bold;
     font-family: khula, sans-serif;
     font-style: normal;
     font-size: 18pt;
-    float: right;
+    text-decoration: none;
+    padding: 10px;
 }
 
 .IniSe:hover {
@@ -294,7 +292,7 @@
 
 .Pt1 {
     vertical-align: top;
-    background-image: url(Product/Assets/Cherry.webp);
+    background-image: url(../images/Cherry.webp);
     background-repeat: no-repeat;
     background-size: contain;
     right: -200px;
